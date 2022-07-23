@@ -6,6 +6,8 @@ cover:
     image: XIAOZHOU/xiaozhou-2d2.png
     alt: "This is my icon"
     caption: "CAPTION!"
+tags: ["TEST2", "HELLO"]
+categories: ["build-the-site"]
 ---
 
 ## Hello, world. 
