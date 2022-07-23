@@ -3,6 +3,14 @@ languageCode: en-us
 title: Jiang.news
 theme: PaperMod
 params: 
+
+  showBreadCrumbs: true
+  showReadingTime: true
+  showShareButtons: true
+  showPostNavLinks: true
+
+  ShareButtons: ["telegram"]
+
   homeInfoParams:
     enabled: true
     Title: Hi there wave
