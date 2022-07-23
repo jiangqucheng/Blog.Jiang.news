@@ -1,0 +1,16 @@
+---
+title: "MAIN"
+date: 2022-07-22T23:14:31-04:00
+draft: false
+cover:
+    image: XIAOZHOU/xiaozhou-2d2.png
+    alt: "This is my icon"
+    caption: "CAPTION!"
+---
+
+## Hello, world. 
+This is the first page generating with Hugo. 
+
+### First paragraph
+Blah, blah, emmmm.... 
+
