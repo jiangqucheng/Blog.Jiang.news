@@ -2,44 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://jiang.news/tags/--/</loc>
+    <loc>http://blog.jiang.news/tags/--/</loc>
     <lastmod>2022-07-22T23:14:31-04:00</lastmod>
   </url><url>
-    <loc>http://jiang.news/categories/build-the-site/</loc>
+    <loc>http://blog.jiang.news/categories/build-the-site/</loc>
     <lastmod>2022-07-22T23:14:31-04:00</lastmod>
   </url><url>
-    <loc>http://jiang.news/categories/</loc>
+    <loc>http://blog.jiang.news/categories/</loc>
     <lastmod>2022-07-22T23:14:31-04:00</lastmod>
   </url><url>
-    <loc>http://jiang.news/</loc>
+    <loc>http://blog.jiang.news/</loc>
     <lastmod>2022-07-22T23:14:31-04:00</lastmod>
   </url><url>
-    <loc>http://jiang.news/post/main/</loc>
+    <loc>http://blog.jiang.news/post/main/</loc>
     <lastmod>2022-07-22T23:14:31-04:00</lastmod>
   </url><url>
-    <loc>http://jiang.news/post/</loc>
+    <loc>http://blog.jiang.news/post/</loc>
     <lastmod>2022-07-22T23:14:31-04:00</lastmod>
   </url><url>
-    <loc>http://jiang.news/tags/</loc>
+    <loc>http://blog.jiang.news/tags/</loc>
     <lastmod>2022-07-22T23:14:31-04:00</lastmod>
   </url><url>
-    <loc>http://jiang.news/tags/hello/</loc>
+    <loc>http://blog.jiang.news/tags/hello/</loc>
     <lastmod>2022-07-22T23:13:31-04:00</lastmod>
   </url><url>
-    <loc>http://jiang.news/post/second_project/second/</loc>
+    <loc>http://blog.jiang.news/post/second_project/second/</loc>
     <lastmod>2022-07-22T23:13:31-04:00</lastmod>
   </url><url>
-    <loc>http://jiang.news/tags/test2/</loc>
+    <loc>http://blog.jiang.news/tags/test2/</loc>
     <lastmod>2022-07-22T23:13:31-04:00</lastmod>
   </url><url>
-    <loc>http://jiang.news/post/first_project/first/</loc>
+    <loc>http://blog.jiang.news/post/first_project/first/</loc>
     <lastmod>2022-07-22T23:11:31-04:00</lastmod>
   </url><url>
-    <loc>http://jiang.news/tags/test1/</loc>
+    <loc>http://blog.jiang.news/tags/test1/</loc>
     <lastmod>2022-07-22T23:11:31-04:00</lastmod>
   </url><url>
-    <loc>http://jiang.news/archives/</loc>
+    <loc>http://blog.jiang.news/archives/</loc>
   </url><url>
-    <loc>http://jiang.news/search/</loc>
+    <loc>http://blog.jiang.news/search/</loc>
   </url>
 </urlset>

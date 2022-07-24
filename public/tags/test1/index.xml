@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>TEST1 on Jiang.news</title>
-    <link>http://jiang.news/tags/test1/</link>
+    <link>http://blog.jiang.news/tags/test1/</link>
     <description>Recent content in TEST1 on Jiang.news</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Jul 2022 23:11:31 -0400</lastBuildDate><atom:link href="http://jiang.news/tags/test1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Jul 2022 23:11:31 -0400</lastBuildDate><atom:link href="http://blog.jiang.news/tags/test1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First</title>
-      <link>http://jiang.news/post/first_project/first/</link>
+      <link>http://blog.jiang.news/post/first_project/first/</link>
       <pubDate>Fri, 22 Jul 2022 23:11:31 -0400</pubDate>
       
-      <guid>http://jiang.news/post/first_project/first/</guid>
+      <guid>http://blog.jiang.news/post/first_project/first/</guid>
       <description>Hello, world. This is the first page generating with Hugo.
 First paragraph Blah, blah, emmmm&amp;hellip;.</description>
     </item>
