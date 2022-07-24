@@ -10,6 +10,12 @@ params: &params_a
   # 设置站标题前logo，[dark, light]
   label:
     icon: XIAOZHOU/xiaozhou-1s.png
+assets:
+    favicon: "/favicon.ico"
+    favicon16x16:  "/favicon-16x16.png"
+    favicon32x32:  "/favicon-32x32.png"
+    apple_touch_icon:  "/apple-touch-icon.png"
+    safari_pinned_tab:  "/safari-pinned-tab.svg"
 
 # 亮暗模式
 params: &params_aa
