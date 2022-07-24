@@ -1,23 +1,62 @@
 baseURL: http://jiang.news/
 languageCode: en-us
-title: Jiang.news
-theme: PaperMod
-params: 
 
+# 使用主题
+theme: PaperMod
+
+# 设置站标题
+title: Jiang.news
+params: &params_a
+  # 设置站标题前logo，[dark, light]
+  label:
+    icon: XIAOZHOU/xiaozhou-1s.png
+
+# 亮暗模式
+params: &params_aa
+  <<: *params_a
+  # 设置用户是否可切换亮暗模式，boolen
+  disableThemeToggle: true
+  disableThemeToggle: false
+  # 设置亮色或暗色模式，[dark, light]
+  defaultTheme: dark
+
+# 搜索
+params: &params_aaa
+  <<: *params_aa
+  fuseOpts:
+      isCaseSensitive: false
+      shouldSort: true
+      location: 0
+      distance: 1000
+      threshold: 0.4
+      minMatchCharLength: 0
+      keys: ["title", "permalink", "summary", "content"]
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
+params:
+  <<: *params_aaa
   showBreadCrumbs: true
   showReadingTime: true
   showShareButtons: true
   showPostNavLinks: true
+  ShowToc: true
 
   ShareButtons: ["telegram"]
 
+
   homeInfoParams:
     enabled: true
-    Title: Hi there wave
-    Content: Can be Info, links, about...
+    Title: Hi there !
+    Content: Welcome to my blog ... 
 
   profileMode:
-    enabled: true
+    # enabled: true
+    enabled: false
     title: "<THIS IS Title>" # optional default will be site title
     subtitle: "Hi there, this is Jiang's self-reserved cropland."
     imageUrl: "XIAOZHOU/xiaozhou-1s.png" # optional
@@ -40,8 +79,13 @@ params:
     - name: "email"
       url: "mailto://jiangquchengpeter@hotmail.com"
 
+
 menu: 
   main: 
+    - identifier: search
+      name: Q
+      url: /search/
+      weight: -1
     - identifier: categories
       name: Categories
       url: /categories/

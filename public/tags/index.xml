@@ -1,10 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on My New Hugo Site</title>
-    <link>http://example.org/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <title>Tags on Jiang.news</title>
+    <link>http://jiang.news/tags/</link>
+    <description>Recent content in Tags on Jiang.news</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Jul 2022 23:14:31 -0400</lastBuildDate><atom:link href="http://jiang.news/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>-???-</title>
+      <link>http://jiang.news/tags/--/</link>
+      <pubDate>Fri, 22 Jul 2022 23:14:31 -0400</pubDate>
+      
+      <guid>http://jiang.news/tags/--/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HELLO</title>
+      <link>http://jiang.news/tags/hello/</link>
+      <pubDate>Fri, 22 Jul 2022 23:13:31 -0400</pubDate>
+      
+      <guid>http://jiang.news/tags/hello/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TEST2</title>
+      <link>http://jiang.news/tags/test2/</link>
+      <pubDate>Fri, 22 Jul 2022 23:13:31 -0400</pubDate>
+      
+      <guid>http://jiang.news/tags/test2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TEST1</title>
+      <link>http://jiang.news/tags/test1/</link>
+      <pubDate>Fri, 22 Jul 2022 23:11:31 -0400</pubDate>
+      
+      <guid>http://jiang.news/tags/test1/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
