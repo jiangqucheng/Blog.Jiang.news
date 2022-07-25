@@ -3,7 +3,7 @@ title: "First"
 date: 2022-07-22T23:11:31-04:00
 draft: false
 cover:
-    image: XIAOZHOU/xiaozhou-2d2.png
+    image: XIAOZHOU/xiaozhou-2d2/xiaozhou.png
     alt: "This is my icon"
     caption: "CAPTION!"
 tags: ["TEST1", "HELLO"]

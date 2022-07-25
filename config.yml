@@ -9,15 +9,15 @@ title: Jiang.news
 params: &params_a
   # 设置站标题前logo，[dark, light]
   label:
-    icon: XIAOZHOU/xiaozhou-1s.png
+    icon: XIAOZHOU/xiaozhou-1c/xiaozhou.png
   
   # favicon
   assets:
-      favicon: "https://baidu.com/XIAOZHOU/favicon.ico"
-      favicon16x16:  "https://baidu.com/XIAOZHOU/favicon-16x16.png"
-      favicon32x32:  "/XIAOZHOU/favicon-32x32.png"
-      apple_touch_icon:  "/XIAOZHOU/apple-touch-icon.png"
-      safari_pinned_tab:  "/XIAOZHOU/safari-pinned-tab.svg"
+      favicon: "https://baidu.com/XIAOZHOU/xiaozhou-1c/favicon.ico"
+      favicon16x16:  "https://baidu.com/XIAOZHOU/xiaozhou-1c/favicon-16x16.png"
+      favicon32x32:  "/XIAOZHOU/xiaozhou-1c/favicon-32x32.png"
+      apple_touch_icon:  "/XIAOZHOU/xiaozhou-1c/apple-touch-icon.png"
+      safari_pinned_tab:  "/XIAOZHOU/xiaozhou-1c/safari-pinned-tab.svg"
 
 # 亮暗模式
 params: &params_aa
@@ -26,7 +26,7 @@ params: &params_aa
   disableThemeToggle: true
   disableThemeToggle: false
   # 设置亮色或暗色模式，[dark, light]
-  defaultTheme: dark
+  defaultTheme: light
 
 # 搜索
 params: &params_aaa
@@ -56,6 +56,9 @@ params:
 
   ShareButtons: ["telegram"]
 
+  components: ["telegram"]
+
+
 
   homeInfoParams:
     enabled: true
@@ -67,7 +70,7 @@ params:
     enabled: false
     title: "<THIS IS Title>" # optional default will be site title
     subtitle: "Hi there, this is Jiang's self-reserved cropland."
-    imageUrl: "XIAOZHOU/xiaozhou-1s.png" # optional
+    imageUrl: "XIAOZHOU/xiaozhou-1s/xiaozhou.png" # optional
     imageTitle: "This is called XIAOZHOW, the icon of mine." # optional
     imageWidth: 240 # custom size
     imageHeight: 240 # custom size
@@ -93,14 +96,17 @@ menu:
     - identifier: search
       name: Q
       url: /search/
+      Description: sssss
       weight: -1
     - identifier: categories
-      name: Categories
+      name: "<Categories>"
       url: /categories/
+      Description: ssssssss
       weight: 1
-    - identifier: tags
-      name: Tags
+    - identifier: "#tags"
+      name: "#Tags"
       url: /tags/
+      Description: sssssqqsss
       weight: 2
     - identifier: archives
       name: Archives
