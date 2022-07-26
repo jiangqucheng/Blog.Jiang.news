@@ -66,8 +66,8 @@ params:
     Content: Welcome to my blog ... 
 
   profileMode:
-    # enabled: true
-    enabled: false
+    enabled: true
+    # enabled: false
     title: "<THIS IS Title>" # optional default will be site title
     subtitle: "Hi there, this is Jiang's self-reserved cropland."
     imageUrl: "XIAOZHOU/xiaozhou-1s/xiaozhou.png" # optional
